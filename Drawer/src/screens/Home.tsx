@@ -38,9 +38,9 @@ const styles = StyleSheet.create({
 
     Button: {
         backgroundColor: '#4F709C',
-        padding: 8,
+        padding: 10,
         borderRadius: 5,
-        width: '30%',
+        width: '10%',
         alignItems: 'center',
         marginTop: 15,
         shadowOffset: {
