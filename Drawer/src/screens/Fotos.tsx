@@ -8,7 +8,7 @@ export function Fotos() {
     const navigation = useNavigation();
   
     function openScreen(){
-        navigation.navigate('Curiosidades', {name: "Esse conteúdo veio da tela B"})
+        navigation.navigate('Curiosidades')
     }
   
     return (
@@ -38,6 +38,8 @@ export function Fotos() {
       <TouchableOpacity style={styles.Button} onPress={openScreen}>
             <Text style={styles.buttonText}>Ver Curiosidades</Text>
           </TouchableOpacity>
+
+         
     </View>
   );
 }
@@ -73,11 +75,12 @@ const styles = StyleSheet.create({
       },
       Button: {
         backgroundColor: '#4F709C',
-        padding: 8,
+        padding: 10,
         borderRadius: 5,
-        width: '30%',
+        width: '10%',
         alignItems: 'center',
         marginTop: 15,
+        marginBottom: '3%',
         shadowOffset: {
           width: 2,
           height: 4,
